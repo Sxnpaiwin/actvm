@@ -1,13 +1,14 @@
+
 name: win-latest
 
 on:
   workflow_dispatch:
     inputs:
       authcode:
-        description: "4/0AQlEd8ycNpnLDm9jW2ztYIu1Rx-KtAn280oTOle3zV7WpaeD2T3LVCtPLShycScBAXZA8Q"
+        description: "CRD Code"
         required: true
       pincode:
-        description: "666666"
+        description: "6 digit PIN"
         required: true
 
 jobs:
